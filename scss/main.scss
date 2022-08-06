@@ -679,8 +679,16 @@ label{
   transform: rotateX(180deg);
   z-index: 1;
 }
-
+@media only screen and (min-width: 350px) {
+  .statistic__item{
+    top: 30px;
+  }
+  
+}
 @media only screen and (min-width: 370px) {
+  .statistic__list{
+    margin-top: 50px;
+  }
   .statistic__item::before{
     top: calc(50% - 160px);
   }
