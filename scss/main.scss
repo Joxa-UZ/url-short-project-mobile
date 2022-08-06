@@ -686,7 +686,12 @@ label{
     height: 700px;
   }
 }
-
+@media only  screen and (min-width: 400px) {
+  .hero__box{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
 @media only screen and (min-width: 700px) {
   .statistic__info{
     max-width: 540px;
